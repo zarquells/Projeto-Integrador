@@ -1,0 +1,61 @@
+/* GERAL */
+.footer-block {
+    background-color: #111111;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 20px 120px;
+}
+
+/* textos */
+
+.footer.conteudo{
+    display: flex;
+    gap: 1ch;
+}
+
+/* contato */
+.footer-contato{
+    align-self: flex-start;
+    display: grid;
+    gap: 20px;
+    justify-items: end;
+}
+
+/* info */
+.footer-info{
+    align-self: flex-start;
+    display: grid;
+    gap: 20px;
+    justify-items: end;
+}
+.footer-cont ul {
+    display: grid;
+    justify-items: end;
+}
+
+.footer-cont li {
+    margin-bottom: 10px;
+}
+/* SVGs */
+.SVGs-sociais {
+    order: 1; /* Ajuste a ordem conforme necessário */
+    display: flex;
+    gap: 20px;
+}
+
+/* Direitos */
+.direitos {
+    order: 2; /* Ajuste a ordem conforme necessário */
+    padding: 20px 120px;
+    margin-bottom: 20px;
+}

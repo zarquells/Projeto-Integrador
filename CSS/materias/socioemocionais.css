@@ -1,0 +1,44 @@
+/*.capacidades-socioemocionais{
+    border: solid 2px #00D0DD;
+    border-radius: 50px;
+}*/
+
+.caixa-socioemocionais{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.linha1-tags, .linha2-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: auto;
+}
+
+.palavras-socioemocionais{
+    color: #fff;
+    font: 20px 'Montserrat';
+    border: solid 2px #C0FBFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.titulo-socio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#espaço3{
+    margin-bottom: 50px;
+}
+
+#espaço2{
+    padding: 0px;
+}
+
+#espaço1{
+    padding-top: 15px;    
+}

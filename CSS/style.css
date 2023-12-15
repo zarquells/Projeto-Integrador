@@ -1,0 +1,30 @@
+/* Globais */
+@import "global/header.css";
+@import "global/global.css";
+@import "global/footer.css";
+
+/* Componentes */
+@import "componentes/componentes.css";
+@import "componentes/cores.css";
+@import "componentes/tipografia.css";
+@import "componentes/underline.css";
+
+/* index */
+@import "index/introducao-titulo.css";
+@import "index/introducao-conteudo.css";
+@import "index/curriculo.css";
+@import "index/slide-tutorial.css";
+@import "index/sobre-intro.css";
+
+/* Materias */
+@import "materias/introducao-mat.css";
+@import "materias/capacidades.css";
+@import "materias/socioemocionais.css";
+
+/* sobre */
+@import "sobre/introducao.css";
+
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Plus+Jakarta+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');

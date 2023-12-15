@@ -1,0 +1,107 @@
+.font-1-xs {
+    /* monteserrat bold 90px 5.625rem */
+    font: 90px 'Montserrat';
+   
+  }
+  
+  .font-2-xs {
+    /* monteserrat bold 56px 3.5 rem */
+    font: 56px 'Montserrat';
+
+  }
+  
+  .font-1-s {
+    /* monteserrat bold 48px 3rem */
+    font: 48px 'Montserrat';
+  }
+  
+  .font-2-s {
+    /* monteserrat bold 42px 2.625rem */
+    font: 42px 'Montserrat';
+
+  }
+  
+  .font-1-m{
+    
+    /* monteserrat bold 36px 2.25rem */
+    font: 36px 'Montserrat';
+
+  }
+  
+  .font-2-m {
+    /* monteserrat bold 32px 2rem */
+    font: 32px 'Montserrat';
+  }
+  
+  .font-1-l {
+    /* monteserrat bold 28px 1.75rem */
+    font: 28px 'Montserrat';
+  }
+
+  .font-1-m {
+    /* monteserrat bold 28px 1.75rem */
+    font: 22px 'Montserrat';
+  }
+
+  .font-1-f {
+  /* Plus Jakartan Sans 28px */    
+  font: 16px 'Montserrat';
+ 
+     }
+  
+  .font-2-l {
+    /* Plus Jakartan Sans 80px */
+    font: 80px 'Plus Jakarta Sans';
+   
+  }
+  
+  .font-2-l-b {
+    /* Puls Jakartan Sans 48px */  
+    font: 48px 'Plus Jakarta Sans';
+  
+  }
+  
+  .font-1-xl {
+    /* Plus Jakartan Sans 36px */
+    font: 36px 'Plus Jakarta Sans';
+  
+  }
+  .font-2-xp {
+    /* Plus Jakartan Sans 32px */    
+    font: 32px 'Plus Jakarta Sans';
+
+    }
+
+  .font-2-xl {
+    /* Plus Jakartan Sans 28px */    
+    font: 28px 'Plus Jakarta Sans';
+
+    }
+
+    .font-2-xk {
+      /* Plus Jakartan Sans 28px */    
+      font: 16px 'Plus Jakarta Sans';
+  
+      }
+  
+
+      
+  @media (max-width: 1200px) {
+    .font-1-xxl {
+      font-size: 3rem;
+    }
+    .font-2-l,
+    .font-2-l-b {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .font-1-xxl {
+      font-size: 2rem;
+    }
+    .font-1-xl,
+    .font-2-xl {
+      font-size: 1.5rem;
+    }
+  }

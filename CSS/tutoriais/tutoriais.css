@@ -1,0 +1,20 @@
+@import url(/CSS/componentes/cores.css);
+@import url(/CSS/componentes/tipografia.css);
+
+#banner{
+    display: grid;
+    padding: left 1px / 2px ;
+
+    grid-template-areas:
+                        "banner-1"
+                        "banner-2";
+}
+.aqui{
+    cursor: pointer;
+    text-decoration-color: var(--cor-3);
+    
+}
+.aqui:hover{
+    color:var(--cor-8);
+    text-transform: uppercase;
+}

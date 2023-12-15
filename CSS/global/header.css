@@ -1,0 +1,74 @@
+.header-block {
+    background-color: #111111;
+    padding: 20px 32px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.header-menu {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #3498db;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+  
+.header-menu:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.materias-header {
+    position: relative;
+}
+
+.materias-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1F1D1D;
+    border: 2px solid #FFFFFF;
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.materias-menu li {
+    margin-bottom: 15px;
+    transition: display 0.3s ease-in-out; /* Adiciona uma transição suave */
+    transition-delay: 0.8s;
+}
+
+.materias-header:hover .materias-menu,
+.materias-menu:hover {
+    display: block;
+}
+
+#mat {
+    cursor: grab;
+}

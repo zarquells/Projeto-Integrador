@@ -1,0 +1,52 @@
+.introducao-mat {
+    margin-bottom: 80px;
+}
+
+.titulo-mat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.titulo-mat p {
+    max-width: 825px;
+}
+
+.icon-mat {
+    display: block;
+    margin-top: 40px;
+    width: 125px;
+}
+
+.grid-info-intro {
+    display: flex;
+    flex-direction: column;
+}
+.coruja-mat {
+    display: none;
+}
+
+.caixa-titulo-esq  {
+    max-width: 420px;
+}
+
+.caixa-titulo-dir {
+    max-width: 420px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.titulo-mat-esq {
+    text-align: start;
+}
+
+.titulo-mat-dir {
+    text-align: end;
+}
+
+.txt-mat {
+    text-align: justify;
+}

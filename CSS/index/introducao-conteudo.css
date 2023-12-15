@@ -1,0 +1,46 @@
+.introducao {
+    margin-bottom: 80px;
+}
+
+.introducao-conteudo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.conteudo-esq {
+    align-self: center;
+    display: grid;
+    gap: 20px;
+    justify-items: end;
+    text-align: end;
+    width: 350px;
+    word-wrap: break-word;
+}
+
+.conteudo-dir {
+    align-self: end;
+    display: grid;
+    gap: 20px;
+    justify-items: start;
+    text-align: start;
+    width: 350px;
+    word-wrap: break-word;
+    position: relative;
+    right: -40px;
+    margin-bottom: 50px;
+}
+
+.coruja-intro::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(#00D0DD, #001B67);
+    border-radius: 50px;
+    z-index: -1;
+    right: 560px;
+    top: 415px;
+}
+

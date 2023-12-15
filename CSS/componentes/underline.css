@@ -1,0 +1,107 @@
+/* Underline Sobre */
+
+.underline-s {
+    position: relative;
+    display: inline-block;
+  }
+  
+.underline-s::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -8px;
+    right: 0; 
+    background-color: #C0FBFF;
+    border-radius: 5px;
+    visibility: hidden;
+    transform: scale(X);
+    transition: all 0.3s ease-in-out;
+}
+  
+.underline-s:hover::before {
+    visibility: visible;
+    width: 100%;
+    left: 0;
+    transform: scaleX(1);
+}
+
+/* Underline Materias Titulos Curriculo */
+.underline-c {
+    position: relative;
+    display: inline-block;
+}
+  
+  .underline-c::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    left: 50%; 
+    background-color: #C0FBFF;
+    border-radius: 5px;
+    visibility: hidden;
+    transform: translateX(-50%);
+    transition: all 0.3s ease-in-out;
+}
+  
+  .underline-c:hover::before {
+    visibility: visible;
+    width: 100%;
+    left: 0;
+    transform: translateX(0);
+}
+  
+/* Underline Menu Header */
+.underline-m {
+    position: relative;
+    display: inline-block;
+}
+  
+  .underline-m::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -5px;
+    left: 50%; 
+    background-color: #C0FBFF;
+    border-radius: 5px;
+    visibility: hidden;
+    transform: translateX(-50%);
+    transition: all 0.3s ease-in-out;
+}
+  
+  .underline-m:hover::before {
+    visibility: visible;
+    width: 100%;
+    left: 0;
+    transform: translateX(0);
+}
+
+/* Underline Titulos Header */
+.underline-h {
+    position: relative;
+  }
+  
+.underline-h::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    bottom: -5px;
+    left: 50%; /* Inicia no meio */
+    background-color: #3498db;
+    border-radius: 5px;
+    visibility: hidden;
+    transform: translateX(-50%); /* Centraliza no meio */
+    transition: all 0.3s ease-in-out;
+}
+  
+.underline-h:hover::before {
+    visibility: visible;
+    width: 100%;
+    left: 0; /* Volta para a posição inicial à esquerda */
+    transform: translateX(0);
+}

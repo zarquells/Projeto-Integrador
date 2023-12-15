@@ -1,0 +1,30 @@
+.capacidades {
+    margin-top: 20px;
+}
+
+.capacidades-basicas{
+    margin: 140px;
+    padding: 40px;
+    border: solid 2px #00D0DD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-capacidade{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.caixa-capacidades-esq, .caixa-capacidades-dir{
+    padding-bottom: 7px;
+    max-width: 700px;
+}
+
+.caixas-capacidades{
+    display: flex;
+    justify-content: space-evenly;
+}

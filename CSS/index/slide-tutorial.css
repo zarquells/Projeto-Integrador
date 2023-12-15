@@ -1,0 +1,102 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.slider-container {
+  position: relative;
+  width: 80%;
+  max-width: 650px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 200%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  box-sizing: border-box;
+  justify-content: center
+}
+
+.slide-content {
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.slide2 p {
+  flex-wrap: wrap;
+  max-width: 535px;
+}
+.slides span {
+  font-weight: 600;
+  -webkit-text-stroke: 2px #C0FBFF;
+  -webkit-text-fill-color: transparent;
+}
+
+#botao-tut {
+  width: 110px;
+  margin-top: 20px;
+}
+
+.nav-dots {
+  position: relative;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 8px;
+  background-color: #C0FBFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #C0FBFF;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .slides {
+  transform: translateX(-50%);
+}
+
+input[type="radio"]:checked ~ .nav-dots .dot {
+  background-color: #fff;
+}

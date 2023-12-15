@@ -1,0 +1,38 @@
+.sobre {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: end;
+}
+
+.sobre-conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    width: 380px
+}
+
+.poster {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(#00D0DD, #001B67);
+    border-radius: 50px;
+    width: 280px;
+    padding: 30px;
+    padding-top: 199px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.sobre p { 
+    margin-bottom: 40px;
+}
+
+.sobre img, a { 
+    margin-bottom: 10px;
+}

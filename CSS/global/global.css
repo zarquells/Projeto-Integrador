@@ -1,0 +1,33 @@
+
+body {
+  margin: 0px;
+  background: rgb(31,29,29);
+  background: linear-gradient(90deg, rgba(31,29,29,1) 0%, rgba(17,17,17,1) 35%, rgba(31,29,29,1) 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

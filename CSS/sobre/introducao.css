@@ -1,0 +1,27 @@
+.introducao-sobre-titulo {
+    height: 500px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.colaboradores {
+    text-align: center;
+    font-weight: 600;
+}
+
+.logo{
+    position: absolute;
+}
+
+.coruja{
+    top: 8%; /*Ajuste a posição vertical conforme necessário */
+    left: 5%; /*Ajuste a posição horizontal conforme necessário*/
+    filter: drop-shadow(8px 3px 4px rgba(0, 0, 0, 0.25));
+}
+
+.oracle{
+    top: 50%;
+    right: 2%;
+}

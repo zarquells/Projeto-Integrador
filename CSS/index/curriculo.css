@@ -1,0 +1,44 @@
+.curriculo-block {
+    margin-bottom: 120px;
+}
+
+.curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.materias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 32px;
+    /* border: 2px solid #00D0DD;
+    border-radius: 50px; */
+}
+
+.materia-bloco {
+    background-color: #000000;
+    padding: 24px;
+    padding-bottom: 14px;
+    border: 2px solid #00D0DD;
+    border-radius: 0px 25px 25px 25px;
+    width: 500px;
+    gap: 10px;
+}
+
+.materias img, h1, p {
+    margin-bottom: 10px;
+}
+
+.materia-bloco p span {
+    font-weight: 600;
+    color: #c0fbff;
+}
+
+.seta {
+    color: #FFFFFF
+}
